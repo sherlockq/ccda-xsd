@@ -1,3 +1,5 @@
+package com.ecw.util;
+
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
@@ -10,7 +12,7 @@ public class XmlMarshaller {
   public <T> String marshall(T content) throws JAXBException {
     JAXBContext context = JAXBContext.newInstance(content.getClass());
     Marshaller marshaller = context.createMarshaller();
-    marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.FALSE);
+    marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
     marshaller.setProperty(Marshaller.JAXB_ENCODING, "ISO-8859-1");
     final StringWriter writer = new StringWriter();
     marshaller.marshal(content, writer);

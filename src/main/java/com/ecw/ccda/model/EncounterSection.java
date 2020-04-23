@@ -1,0 +1,11 @@
+package com.ecw.ccda.model;
+
+import com.ecw.ccd.schema.POCDMT000040Component3;
+
+public class EncounterSection implements Section {
+    @Override
+    public POCDMT000040Component3 getXmlBean() {
+        return null;
+    }
+
+}
