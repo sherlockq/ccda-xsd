@@ -1,6 +1,6 @@
 package com.ecw.ccda.model;
 
-import com.ecw.ccd.schema.*;
+import hl7.cda.schema.*;
 
 import javax.xml.bind.JAXBElement;
 import javax.xml.namespace.QName;

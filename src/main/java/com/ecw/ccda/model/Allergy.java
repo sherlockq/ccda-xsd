@@ -1,10 +1,8 @@
 package com.ecw.ccda.model;
 
-import com.ecw.ccd.schema.*;
 import com.ecw.ccda.model.constants.CodeSystem;
 import com.ecw.ccda.model.shared.ID;
-
-import javax.xml.bind.JAXBElement;
+import hl7.cda.schema.*;
 
 public class Allergy implements XmlProvider<POCDMT000040Entry> {
     @Override

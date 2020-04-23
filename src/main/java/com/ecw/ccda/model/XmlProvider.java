@@ -1,7 +1,5 @@
 package com.ecw.ccda.model;
 
-import com.ecw.ccd.schema.POCDMT000040ClinicalDocument;
-
 public interface XmlProvider<T> {
     T getXmlBean();
 

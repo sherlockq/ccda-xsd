@@ -1,6 +1,6 @@
 package com.ecw.ccda.model.shared;
 
-import com.ecw.ccd.schema.II;
+import hl7.cda.schema.II;
 import com.ecw.ccda.model.XmlProvider;
 
 public class ID implements XmlProvider<II> {

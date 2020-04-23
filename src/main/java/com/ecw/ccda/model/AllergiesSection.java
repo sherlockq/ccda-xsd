@@ -1,8 +1,8 @@
 package com.ecw.ccda.model;
 
-import com.ecw.ccd.schema.*;
 import com.ecw.ccda.model.constants.CodeSystem;
 import com.ecw.ccda.model.shared.ID;
+import hl7.cda.schema.*;
 
 import javax.xml.bind.JAXBElement;
 import javax.xml.namespace.QName;

@@ -1,6 +1,6 @@
-import com.ecw.ccd.schema.CE;
-import com.ecw.ccd.schema.POCDMT000040ClinicalDocument;
-import com.ecw.ccd.schema.POCDMT000040Patient;
+import hl7.cda.schema.CE;
+import hl7.cda.schema.POCDMT000040ClinicalDocument;
+import hl7.cda.schema.POCDMT000040Patient;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.xml.sax.SAXException;
@@ -20,6 +20,7 @@ import java.io.InputStream;
 import java.io.StringWriter;
 import java.nio.charset.StandardCharsets;
 
+// TODO: WIP
 public class CCDGenerationShould {
     private Marshaller ccdMarshaller;
 
@@ -40,7 +41,7 @@ public class CCDGenerationShould {
             SchemaFactory sf = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
             Schema schema = sf.newSchema(new Source[]
                     {
-                            new StreamSource(dataTypesSdtcXsd),
+//                            new StreamSource(dataTypesSdtcXsd),
 //                            new StreamSource(vocXsd),
 //                            new StreamSource(xsdStreamCore1),
 //                            new StreamSource(xsdStreamCore3),
@@ -81,6 +82,6 @@ public class CCDGenerationShould {
                 "urn:hl7-org:sdtc", "raceCode"), CE.class, raceCode));
         patient.getContent().add(new JAXBElement<>(new QName("realmCode"), CE.class, raceCode));
 
-        printXml(patient);
+//        printXml(patient);
     }
 }

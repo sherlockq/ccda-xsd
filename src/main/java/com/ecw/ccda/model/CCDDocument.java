@@ -1,7 +1,7 @@
 package com.ecw.ccda.model;
 
-import com.ecw.ccd.schema.*;
 import com.ecw.ccda.model.shared.ID;
+import hl7.cda.schema.*;
 
 import java.util.ArrayList;
 import java.util.List;
