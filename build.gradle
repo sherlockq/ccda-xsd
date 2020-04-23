@@ -25,10 +25,11 @@ ext {
 
 dependencies {
     testImplementation "org.junit.jupiter:junit-jupiter-api:${junitVersion}"
+    testImplementation "org.assertj:assertj-core:${assertjVersion}"
     // pick your desired test flavors
     /*
     testImplementation "org.junit.jupiter:junit-jupiter-params:${junitVersion}"
-    testImplementation "org.assertj:assertj-core:${assertjVersion}"
+
     testImplementation "org.mockito:mockito-junit-jupiter:${mockitoVersion}"
     */
     testImplementation "org.mockito:mockito-junit-jupiter:${mockitoVersion}"
