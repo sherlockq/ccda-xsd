@@ -24,6 +24,10 @@ ext {
 }
 
 dependencies {
+    // https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api
+//    compile group: 'javax.xml.bind', name: 'jaxb-api', version: '2.2.4'
+    compile 'com.sun.xml.bind:jaxb-xjc:2.2.7'
+
     testImplementation "org.junit.jupiter:junit-jupiter-api:${junitVersion}"
     testImplementation "org.assertj:assertj-core:${assertjVersion}"
     // pick your desired test flavors
