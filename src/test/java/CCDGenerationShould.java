@@ -31,7 +31,7 @@ public class CCDGenerationShould {
         ccdMarshaller = context.createMarshaller();
         ccdMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
         ccdMarshaller.setProperty(Marshaller.JAXB_ENCODING, StandardCharsets.UTF_8.name());
-        try (InputStream xsdStream1 = CCDGenerationShould.class.getResourceAsStream("/hl7/xsd/infrastructure/cda/CDA_SDTC.xsd")) {
+        try (InputStream xsdStream1 = CCDGenerationShould.class.getResourceAsStream("/hl7/cda/xsd/infrastructure/cda/CDA_SDTC.xsd")) {
             SchemaFactory sf = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
             sf.setResourceResolver(new CcdXsdResolver());
             Schema schema = sf.newSchema(new StreamSource(xsdStream1));

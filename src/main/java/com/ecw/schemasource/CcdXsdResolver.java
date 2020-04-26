@@ -12,8 +12,8 @@ import static java.util.Arrays.asList;
 public class CcdXsdResolver implements LSResourceResolver {
 
     private static final List<String> XSD_LOCATIONS = asList(
-            "/hl7/xsd/infrastructure/cda",
-            "/hl7/xsd/processable/coreschemas"
+            "/hl7/cda/xsd/infrastructure/cda",
+            "/hl7/cda/xsd/processable/coreschemas"
     );
 
     @Override
