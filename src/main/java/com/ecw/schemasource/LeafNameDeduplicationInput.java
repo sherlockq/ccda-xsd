@@ -1,3 +1,5 @@
+package com.ecw.schemasource;
+
 import org.w3c.dom.ls.LSInput;
 
 import java.io.BufferedInputStream;
@@ -5,13 +7,13 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.Reader;
 
-public class MyInput implements LSInput {
+public class LeafNameDeduplicationInput implements LSInput {
 
     private String publicId;
     private String systemId;
-    private BufferedInputStream inputStream;
+    private final BufferedInputStream inputStream;
 
-    public MyInput(String publicId, String systemId, InputStream input) {
+    public LeafNameDeduplicationInput(String publicId, String systemId, InputStream input) {
         this.publicId = publicId;
         this.systemId = systemId;
         this.inputStream = new BufferedInputStream(input);
@@ -55,8 +57,7 @@ public class MyInput implements LSInput {
             try {
                 byte[] input = new byte[inputStream.available()];
                 inputStream.read(input);
-                String contents = new String(input);
-                return contents;
+                return new String(input);
             } catch (IOException e) {
                 e.printStackTrace();
                 System.out.println("Exception " + e);

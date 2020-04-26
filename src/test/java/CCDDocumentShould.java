@@ -27,7 +27,8 @@ public class CCDDocumentShould {
         sections.add(new EncounterSection());
 
         CCDDocument document = new CCDDocument(new ID("root", "extension"), new PatientDemographic(), sections);
+        String xml = new XmlMarshaller().marshallFragment(document.getXmlBean(), "{urn:hl7-org:v3}clinicalDocument");
 
-        System.out.println(new XmlMarshaller().marshall(document.getXmlBean()));
+        assertThat(xml).startsWith("<clinicalDocument xmlns=\"urn:hl7-org:v3\" xmlns:ns2=\"urn:hl7-org:sdtc\">");
     }
 }
