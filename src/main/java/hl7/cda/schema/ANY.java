@@ -38,6 +38,7 @@ import javax.xml.bind.annotation.XmlType;
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "ANY")
 @XmlSeeAlso({
+    AD.class,
     BL.class,
     ANYNonNull.class,
     CR.class,
@@ -45,6 +46,7 @@ import javax.xml.bind.annotation.XmlType;
     SLISTTS.class,
     GLISTPQ.class,
     SLISTPQ.class,
+    EN.class,
     GLISTTS.class,
     CD.class,
     URL.class,

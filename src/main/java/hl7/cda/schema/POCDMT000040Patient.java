@@ -61,27 +61,27 @@ import javax.xml.bind.annotation.XmlType;
 public class POCDMT000040Patient {
 
     @XmlElementRefs({
-        @XmlElementRef(name = "deceasedTime", namespace = "urn:hl7-org:sdtc", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "maritalStatusCode", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "realmCode", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "typeId", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "religiousAffiliationCode", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "guardian", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "birthplace", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "birthTime", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "multipleBirthInd", namespace = "urn:hl7-org:sdtc", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "administrativeGenderCode", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "raceCode", namespace = "urn:hl7-org:sdtc", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "ethnicGroupCode", namespace = "urn:hl7-org:sdtc", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "deceasedInd", namespace = "urn:hl7-org:sdtc", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "desc", namespace = "urn:hl7-org:sdtc", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "ethnicGroupCode", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "templateId", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "multipleBirthOrderNumber", namespace = "urn:hl7-org:sdtc", type = JAXBElement.class, required = false),
         @XmlElementRef(name = "name", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false),
+        @XmlElementRef(name = "ethnicGroupCode", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false),
+        @XmlElementRef(name = "realmCode", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false),
+        @XmlElementRef(name = "birthplace", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false),
+        @XmlElementRef(name = "deceasedInd", namespace = "urn:hl7-org:sdtc", type = JAXBElement.class, required = false),
+        @XmlElementRef(name = "raceCode", namespace = "urn:hl7-org:sdtc", type = JAXBElement.class, required = false),
+        @XmlElementRef(name = "administrativeGenderCode", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false),
+        @XmlElementRef(name = "multipleBirthInd", namespace = "urn:hl7-org:sdtc", type = JAXBElement.class, required = false),
+        @XmlElementRef(name = "maritalStatusCode", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false),
         @XmlElementRef(name = "id", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false),
         @XmlElementRef(name = "languageCommunication", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "raceCode", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false)
+        @XmlElementRef(name = "multipleBirthOrderNumber", namespace = "urn:hl7-org:sdtc", type = JAXBElement.class, required = false),
+        @XmlElementRef(name = "deceasedTime", namespace = "urn:hl7-org:sdtc", type = JAXBElement.class, required = false),
+        @XmlElementRef(name = "templateId", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false),
+        @XmlElementRef(name = "religiousAffiliationCode", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false),
+        @XmlElementRef(name = "guardian", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false),
+        @XmlElementRef(name = "raceCode", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false),
+        @XmlElementRef(name = "ethnicGroupCode", namespace = "urn:hl7-org:sdtc", type = JAXBElement.class, required = false),
+        @XmlElementRef(name = "typeId", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false),
+        @XmlElementRef(name = "birthTime", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false),
+        @XmlElementRef(name = "desc", namespace = "urn:hl7-org:sdtc", type = JAXBElement.class, required = false)
     })
     protected List<JAXBElement<?>> content;
     @XmlAttribute(name = "nullFlavor")
@@ -97,8 +97,8 @@ public class POCDMT000040Patient {
      * <p>
      * You are getting this "catch-all" property because of the following reason: 
      * The field name "RaceCode" is used by two different parts of a schema. See: 
-     * line 1087 of file:/Users/sherlockq/Codes/eCW/ccda-xsd/src/main/resources/hl7/xsd/infrastructure/cda/POCD_MT000040_SDTC.xsd
-     * line 1085 of file:/Users/sherlockq/Codes/eCW/ccda-xsd/src/main/resources/hl7/xsd/infrastructure/cda/POCD_MT000040_SDTC.xsd
+     * line 1087 of file:/Users/sherlockq/Codes/eCW/ccda-xsd/src/main/resources/hl7/cda/xsd/infrastructure/cda/POCD_MT000040_SDTC.xsd
+     * line 1085 of file:/Users/sherlockq/Codes/eCW/ccda-xsd/src/main/resources/hl7/cda/xsd/infrastructure/cda/POCD_MT000040_SDTC.xsd
      * <p>
      * To get rid of this property, apply a property customization to one 
      * of both of the following declarations to change their names: 
@@ -119,27 +119,27 @@ public class POCDMT000040Patient {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link JAXBElement }{@code <}{@link TS }{@code >}
+     * {@link JAXBElement }{@code <}{@link PN }{@code >}
      * {@link JAXBElement }{@code <}{@link CE }{@code >}
      * {@link JAXBElement }{@code <}{@link CS }{@code >}
-     * {@link JAXBElement }{@code <}{@link POCDMT000040InfrastructureRootTypeId }{@code >}
-     * {@link JAXBElement }{@code <}{@link CE }{@code >}
-     * {@link JAXBElement }{@code <}{@link POCDMT000040Guardian }{@code >}
      * {@link JAXBElement }{@code <}{@link POCDMT000040Birthplace }{@code >}
-     * {@link JAXBElement }{@code <}{@link TS }{@code >}
      * {@link JAXBElement }{@code <}{@link BL }{@code >}
      * {@link JAXBElement }{@code <}{@link CE }{@code >}
      * {@link JAXBElement }{@code <}{@link CE }{@code >}
-     * {@link JAXBElement }{@code <}{@link CE }{@code >}
      * {@link JAXBElement }{@code <}{@link BL }{@code >}
-     * {@link JAXBElement }{@code <}{@link ED }{@code >}
      * {@link JAXBElement }{@code <}{@link CE }{@code >}
-     * {@link JAXBElement }{@code <}{@link II }{@code >}
-     * {@link JAXBElement }{@code <}{@link INTPOS }{@code >}
-     * {@link JAXBElement }{@code <}{@link PN }{@code >}
      * {@link JAXBElement }{@code <}{@link II }{@code >}
      * {@link JAXBElement }{@code <}{@link POCDMT000040LanguageCommunication }{@code >}
+     * {@link JAXBElement }{@code <}{@link INTPOS }{@code >}
+     * {@link JAXBElement }{@code <}{@link TS }{@code >}
+     * {@link JAXBElement }{@code <}{@link II }{@code >}
      * {@link JAXBElement }{@code <}{@link CE }{@code >}
+     * {@link JAXBElement }{@code <}{@link POCDMT000040Guardian }{@code >}
+     * {@link JAXBElement }{@code <}{@link CE }{@code >}
+     * {@link JAXBElement }{@code <}{@link CE }{@code >}
+     * {@link JAXBElement }{@code <}{@link POCDMT000040InfrastructureRootTypeId }{@code >}
+     * {@link JAXBElement }{@code <}{@link TS }{@code >}
+     * {@link JAXBElement }{@code <}{@link ED }{@code >}
      * 
      * 
      */

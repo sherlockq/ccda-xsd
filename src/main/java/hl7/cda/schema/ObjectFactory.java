@@ -44,28 +44,44 @@ public class ObjectFactory {
     private final static QName _DeceasedTime_QNAME = new QName("urn:hl7-org:sdtc", "deceasedTime");
     private final static QName _MultipleBirthOrderNumber_QNAME = new QName("urn:hl7-org:sdtc", "multipleBirthOrderNumber");
     private final static QName _MultipleBirthInd_QNAME = new QName("urn:hl7-org:sdtc", "multipleBirthInd");
-    private final static QName _IVLPPDPQWidth_QNAME = new QName("urn:hl7-org:v3", "width");
-    private final static QName _IVLPPDPQCenter_QNAME = new QName("urn:hl7-org:v3", "center");
-    private final static QName _IVLPPDPQLow_QNAME = new QName("urn:hl7-org:v3", "low");
-    private final static QName _IVLPPDPQHigh_QNAME = new QName("urn:hl7-org:v3", "high");
-    private final static QName _StrucDocLinkHtmlFootnote_QNAME = new QName("urn:hl7-org:v3", "footnote");
-    private final static QName _StrucDocLinkHtmlFootnoteRef_QNAME = new QName("urn:hl7-org:v3", "footnoteRef");
     private final static QName _StrucDocTitleFootnoteSup_QNAME = new QName("urn:hl7-org:v3", "sup");
     private final static QName _StrucDocTitleFootnoteContent_QNAME = new QName("urn:hl7-org:v3", "content");
     private final static QName _StrucDocTitleFootnoteSub_QNAME = new QName("urn:hl7-org:v3", "sub");
     private final static QName _StrucDocTitleFootnoteBr_QNAME = new QName("urn:hl7-org:v3", "br");
-    private final static QName _StrucDocParagraphLinkHtml_QNAME = new QName("urn:hl7-org:v3", "linkHtml");
-    private final static QName _StrucDocParagraphCaption_QNAME = new QName("urn:hl7-org:v3", "caption");
-    private final static QName _StrucDocParagraphRenderMultiMedia_QNAME = new QName("urn:hl7-org:v3", "renderMultiMedia");
-    private final static QName _StrucDocTdList_QNAME = new QName("urn:hl7-org:v3", "list");
-    private final static QName _StrucDocTdParagraph_QNAME = new QName("urn:hl7-org:v3", "paragraph");
+    private final static QName _StrucDocFootnoteTable_QNAME = new QName("urn:hl7-org:v3", "table");
+    private final static QName _StrucDocFootnoteLinkHtml_QNAME = new QName("urn:hl7-org:v3", "linkHtml");
+    private final static QName _StrucDocFootnoteList_QNAME = new QName("urn:hl7-org:v3", "list");
+    private final static QName _StrucDocFootnoteRenderMultiMedia_QNAME = new QName("urn:hl7-org:v3", "renderMultiMedia");
+    private final static QName _StrucDocFootnoteParagraph_QNAME = new QName("urn:hl7-org:v3", "paragraph");
+    private final static QName _StrucDocLinkHtmlFootnote_QNAME = new QName("urn:hl7-org:v3", "footnote");
+    private final static QName _StrucDocLinkHtmlFootnoteRef_QNAME = new QName("urn:hl7-org:v3", "footnoteRef");
+    private final static QName _POCDMT000040PatientRaceCode_QNAME = new QName("urn:hl7-org:v3", "raceCode");
+    private final static QName _POCDMT000040PatientGuardian_QNAME = new QName("urn:hl7-org:v3", "guardian");
+    private final static QName _POCDMT000040PatientId_QNAME = new QName("urn:hl7-org:v3", "id");
+    private final static QName _POCDMT000040PatientTypeId_QNAME = new QName("urn:hl7-org:v3", "typeId");
+    private final static QName _POCDMT000040PatientName_QNAME = new QName("urn:hl7-org:v3", "name");
+    private final static QName _POCDMT000040PatientBirthplace_QNAME = new QName("urn:hl7-org:v3", "birthplace");
+    private final static QName _POCDMT000040PatientReligiousAffiliationCode_QNAME = new QName("urn:hl7-org:v3", "religiousAffiliationCode");
+    private final static QName _POCDMT000040PatientMaritalStatusCode_QNAME = new QName("urn:hl7-org:v3", "maritalStatusCode");
+    private final static QName _POCDMT000040PatientAdministrativeGenderCode_QNAME = new QName("urn:hl7-org:v3", "administrativeGenderCode");
+    private final static QName _POCDMT000040PatientTemplateId_QNAME = new QName("urn:hl7-org:v3", "templateId");
+    private final static QName _POCDMT000040PatientBirthTime_QNAME = new QName("urn:hl7-org:v3", "birthTime");
+    private final static QName _POCDMT000040PatientLanguageCommunication_QNAME = new QName("urn:hl7-org:v3", "languageCommunication");
+    private final static QName _POCDMT000040PatientRealmCode_QNAME = new QName("urn:hl7-org:v3", "realmCode");
+    private final static QName _POCDMT000040PatientEthnicGroupCode_QNAME = new QName("urn:hl7-org:v3", "ethnicGroupCode");
+    private final static QName _IVLINTWidth_QNAME = new QName("urn:hl7-org:v3", "width");
+    private final static QName _IVLINTCenter_QNAME = new QName("urn:hl7-org:v3", "center");
+    private final static QName _IVLINTLow_QNAME = new QName("urn:hl7-org:v3", "low");
+    private final static QName _IVLINTHigh_QNAME = new QName("urn:hl7-org:v3", "high");
     private final static QName _ENFamily_QNAME = new QName("urn:hl7-org:v3", "family");
     private final static QName _ENSuffix_QNAME = new QName("urn:hl7-org:v3", "suffix");
     private final static QName _ENValidTime_QNAME = new QName("urn:hl7-org:v3", "validTime");
     private final static QName _ENDelimiter_QNAME = new QName("urn:hl7-org:v3", "delimiter");
     private final static QName _ENPrefix_QNAME = new QName("urn:hl7-org:v3", "prefix");
     private final static QName _ENGiven_QNAME = new QName("urn:hl7-org:v3", "given");
-    private final static QName _StrucDocTextTable_QNAME = new QName("urn:hl7-org:v3", "table");
+    private final static QName _EDThumbnail_QNAME = new QName("urn:hl7-org:v3", "thumbnail");
+    private final static QName _EDReference_QNAME = new QName("urn:hl7-org:v3", "reference");
+    private final static QName _StrucDocParagraphCaption_QNAME = new QName("urn:hl7-org:v3", "caption");
     private final static QName _ADDirection_QNAME = new QName("urn:hl7-org:v3", "direction");
     private final static QName _ADStreetAddressLine_QNAME = new QName("urn:hl7-org:v3", "streetAddressLine");
     private final static QName _ADState_QNAME = new QName("urn:hl7-org:v3", "state");
@@ -93,20 +109,6 @@ public class ObjectFactory {
     private final static QName _ADDeliveryModeIdentifier_QNAME = new QName("urn:hl7-org:v3", "deliveryModeIdentifier");
     private final static QName _ADAdditionalLocator_QNAME = new QName("urn:hl7-org:v3", "additionalLocator");
     private final static QName _ADPostBox_QNAME = new QName("urn:hl7-org:v3", "postBox");
-    private final static QName _POCDMT000040PatientRaceCode_QNAME = new QName("urn:hl7-org:v3", "raceCode");
-    private final static QName _POCDMT000040PatientGuardian_QNAME = new QName("urn:hl7-org:v3", "guardian");
-    private final static QName _POCDMT000040PatientId_QNAME = new QName("urn:hl7-org:v3", "id");
-    private final static QName _POCDMT000040PatientTypeId_QNAME = new QName("urn:hl7-org:v3", "typeId");
-    private final static QName _POCDMT000040PatientName_QNAME = new QName("urn:hl7-org:v3", "name");
-    private final static QName _POCDMT000040PatientBirthplace_QNAME = new QName("urn:hl7-org:v3", "birthplace");
-    private final static QName _POCDMT000040PatientReligiousAffiliationCode_QNAME = new QName("urn:hl7-org:v3", "religiousAffiliationCode");
-    private final static QName _POCDMT000040PatientMaritalStatusCode_QNAME = new QName("urn:hl7-org:v3", "maritalStatusCode");
-    private final static QName _POCDMT000040PatientAdministrativeGenderCode_QNAME = new QName("urn:hl7-org:v3", "administrativeGenderCode");
-    private final static QName _POCDMT000040PatientTemplateId_QNAME = new QName("urn:hl7-org:v3", "templateId");
-    private final static QName _POCDMT000040PatientBirthTime_QNAME = new QName("urn:hl7-org:v3", "birthTime");
-    private final static QName _POCDMT000040PatientLanguageCommunication_QNAME = new QName("urn:hl7-org:v3", "languageCommunication");
-    private final static QName _POCDMT000040PatientRealmCode_QNAME = new QName("urn:hl7-org:v3", "realmCode");
-    private final static QName _POCDMT000040PatientEthnicGroupCode_QNAME = new QName("urn:hl7-org:v3", "ethnicGroupCode");
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: hl7.cda.schema
@@ -2064,60 +2066,6 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link PPDPQ }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "width", scope = IVLPPDPQ.class)
-    public JAXBElement<PPDPQ> createIVLPPDPQWidth(PPDPQ value) {
-        return new JAXBElement<PPDPQ>(_IVLPPDPQWidth_QNAME, PPDPQ.class, IVLPPDPQ.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link PPDPQ }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "center", scope = IVLPPDPQ.class)
-    public JAXBElement<PPDPQ> createIVLPPDPQCenter(PPDPQ value) {
-        return new JAXBElement<PPDPQ>(_IVLPPDPQCenter_QNAME, PPDPQ.class, IVLPPDPQ.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link IVXBPPDPQ }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "low", scope = IVLPPDPQ.class)
-    public JAXBElement<IVXBPPDPQ> createIVLPPDPQLow(IVXBPPDPQ value) {
-        return new JAXBElement<IVXBPPDPQ>(_IVLPPDPQLow_QNAME, IVXBPPDPQ.class, IVLPPDPQ.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link IVXBPPDPQ }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "high", scope = IVLPPDPQ.class)
-    public JAXBElement<IVXBPPDPQ> createIVLPPDPQHigh(IVXBPPDPQ value) {
-        return new JAXBElement<IVXBPPDPQ>(_IVLPPDPQHigh_QNAME, IVXBPPDPQ.class, IVLPPDPQ.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocFootnote }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "footnote", scope = StrucDocLinkHtml.class)
-    public JAXBElement<StrucDocFootnote> createStrucDocLinkHtmlFootnote(StrucDocFootnote value) {
-        return new JAXBElement<StrucDocFootnote>(_StrucDocLinkHtmlFootnote_QNAME, StrucDocFootnote.class, StrucDocLinkHtml.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocFootnoteRef }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "footnoteRef", scope = StrucDocLinkHtml.class)
-    public JAXBElement<StrucDocFootnoteRef> createStrucDocLinkHtmlFootnoteRef(StrucDocFootnoteRef value) {
-        return new JAXBElement<StrucDocFootnoteRef>(_StrucDocLinkHtmlFootnoteRef_QNAME, StrucDocFootnoteRef.class, StrucDocLinkHtml.class, value);
-    }
-
-    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocSup }{@code >}}
      * 
      */
@@ -2154,120 +2102,264 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link PQ }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "width", scope = IVLPQ.class)
-    public JAXBElement<PQ> createIVLPQWidth(PQ value) {
-        return new JAXBElement<PQ>(_IVLPPDPQWidth_QNAME, PQ.class, IVLPQ.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link PQ }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "center", scope = IVLPQ.class)
-    public JAXBElement<PQ> createIVLPQCenter(PQ value) {
-        return new JAXBElement<PQ>(_IVLPPDPQCenter_QNAME, PQ.class, IVLPQ.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link IVXBPQ }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "low", scope = IVLPQ.class)
-    public JAXBElement<IVXBPQ> createIVLPQLow(IVXBPQ value) {
-        return new JAXBElement<IVXBPQ>(_IVLPPDPQLow_QNAME, IVXBPQ.class, IVLPQ.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link IVXBPQ }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "high", scope = IVLPQ.class)
-    public JAXBElement<IVXBPQ> createIVLPQHigh(IVXBPQ value) {
-        return new JAXBElement<IVXBPQ>(_IVLPPDPQHigh_QNAME, IVXBPQ.class, IVLPQ.class, value);
-    }
-
-    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocSup }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "sup", scope = StrucDocParagraph.class)
-    public JAXBElement<StrucDocSup> createStrucDocParagraphSup(StrucDocSup value) {
-        return new JAXBElement<StrucDocSup>(_StrucDocTitleFootnoteSup_QNAME, StrucDocSup.class, StrucDocParagraph.class, value);
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "sup", scope = StrucDocFootnote.class)
+    public JAXBElement<StrucDocSup> createStrucDocFootnoteSup(StrucDocSup value) {
+        return new JAXBElement<StrucDocSup>(_StrucDocTitleFootnoteSup_QNAME, StrucDocSup.class, StrucDocFootnote.class, value);
     }
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocContent }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "content", scope = StrucDocParagraph.class)
-    public JAXBElement<StrucDocContent> createStrucDocParagraphContent(StrucDocContent value) {
-        return new JAXBElement<StrucDocContent>(_StrucDocTitleFootnoteContent_QNAME, StrucDocContent.class, StrucDocParagraph.class, value);
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "content", scope = StrucDocFootnote.class)
+    public JAXBElement<StrucDocContent> createStrucDocFootnoteContent(StrucDocContent value) {
+        return new JAXBElement<StrucDocContent>(_StrucDocTitleFootnoteContent_QNAME, StrucDocContent.class, StrucDocFootnote.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocTable }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "table", scope = StrucDocFootnote.class)
+    public JAXBElement<StrucDocTable> createStrucDocFootnoteTable(StrucDocTable value) {
+        return new JAXBElement<StrucDocTable>(_StrucDocFootnoteTable_QNAME, StrucDocTable.class, StrucDocFootnote.class, value);
     }
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocLinkHtml }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "linkHtml", scope = StrucDocParagraph.class)
-    public JAXBElement<StrucDocLinkHtml> createStrucDocParagraphLinkHtml(StrucDocLinkHtml value) {
-        return new JAXBElement<StrucDocLinkHtml>(_StrucDocParagraphLinkHtml_QNAME, StrucDocLinkHtml.class, StrucDocParagraph.class, value);
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "linkHtml", scope = StrucDocFootnote.class)
+    public JAXBElement<StrucDocLinkHtml> createStrucDocFootnoteLinkHtml(StrucDocLinkHtml value) {
+        return new JAXBElement<StrucDocLinkHtml>(_StrucDocFootnoteLinkHtml_QNAME, StrucDocLinkHtml.class, StrucDocFootnote.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocFootnote }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocList }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "footnote", scope = StrucDocParagraph.class)
-    public JAXBElement<StrucDocFootnote> createStrucDocParagraphFootnote(StrucDocFootnote value) {
-        return new JAXBElement<StrucDocFootnote>(_StrucDocLinkHtmlFootnote_QNAME, StrucDocFootnote.class, StrucDocParagraph.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocCaption }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "caption", scope = StrucDocParagraph.class)
-    public JAXBElement<StrucDocCaption> createStrucDocParagraphCaption(StrucDocCaption value) {
-        return new JAXBElement<StrucDocCaption>(_StrucDocParagraphCaption_QNAME, StrucDocCaption.class, StrucDocParagraph.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocFootnoteRef }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "footnoteRef", scope = StrucDocParagraph.class)
-    public JAXBElement<StrucDocFootnoteRef> createStrucDocParagraphFootnoteRef(StrucDocFootnoteRef value) {
-        return new JAXBElement<StrucDocFootnoteRef>(_StrucDocLinkHtmlFootnoteRef_QNAME, StrucDocFootnoteRef.class, StrucDocParagraph.class, value);
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "list", scope = StrucDocFootnote.class)
+    public JAXBElement<StrucDocList> createStrucDocFootnoteList(StrucDocList value) {
+        return new JAXBElement<StrucDocList>(_StrucDocFootnoteList_QNAME, StrucDocList.class, StrucDocFootnote.class, value);
     }
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocRenderMultiMedia }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "renderMultiMedia", scope = StrucDocParagraph.class)
-    public JAXBElement<StrucDocRenderMultiMedia> createStrucDocParagraphRenderMultiMedia(StrucDocRenderMultiMedia value) {
-        return new JAXBElement<StrucDocRenderMultiMedia>(_StrucDocParagraphRenderMultiMedia_QNAME, StrucDocRenderMultiMedia.class, StrucDocParagraph.class, value);
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "renderMultiMedia", scope = StrucDocFootnote.class)
+    public JAXBElement<StrucDocRenderMultiMedia> createStrucDocFootnoteRenderMultiMedia(StrucDocRenderMultiMedia value) {
+        return new JAXBElement<StrucDocRenderMultiMedia>(_StrucDocFootnoteRenderMultiMedia_QNAME, StrucDocRenderMultiMedia.class, StrucDocFootnote.class, value);
     }
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocSub }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "sub", scope = StrucDocParagraph.class)
-    public JAXBElement<StrucDocSub> createStrucDocParagraphSub(StrucDocSub value) {
-        return new JAXBElement<StrucDocSub>(_StrucDocTitleFootnoteSub_QNAME, StrucDocSub.class, StrucDocParagraph.class, value);
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "sub", scope = StrucDocFootnote.class)
+    public JAXBElement<StrucDocSub> createStrucDocFootnoteSub(StrucDocSub value) {
+        return new JAXBElement<StrucDocSub>(_StrucDocTitleFootnoteSub_QNAME, StrucDocSub.class, StrucDocFootnote.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocParagraph }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "paragraph", scope = StrucDocFootnote.class)
+    public JAXBElement<StrucDocParagraph> createStrucDocFootnoteParagraph(StrucDocParagraph value) {
+        return new JAXBElement<StrucDocParagraph>(_StrucDocFootnoteParagraph_QNAME, StrucDocParagraph.class, StrucDocFootnote.class, value);
     }
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "br", scope = StrucDocParagraph.class)
-    public JAXBElement<String> createStrucDocParagraphBr(String value) {
-        return new JAXBElement<String>(_StrucDocTitleFootnoteBr_QNAME, String.class, StrucDocParagraph.class, value);
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "br", scope = StrucDocFootnote.class)
+    public JAXBElement<String> createStrucDocFootnoteBr(String value) {
+        return new JAXBElement<String>(_StrucDocTitleFootnoteBr_QNAME, String.class, StrucDocFootnote.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocFootnote }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "footnote", scope = StrucDocLinkHtml.class)
+    public JAXBElement<StrucDocFootnote> createStrucDocLinkHtmlFootnote(StrucDocFootnote value) {
+        return new JAXBElement<StrucDocFootnote>(_StrucDocLinkHtmlFootnote_QNAME, StrucDocFootnote.class, StrucDocLinkHtml.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocFootnoteRef }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "footnoteRef", scope = StrucDocLinkHtml.class)
+    public JAXBElement<StrucDocFootnoteRef> createStrucDocLinkHtmlFootnoteRef(StrucDocFootnoteRef value) {
+        return new JAXBElement<StrucDocFootnoteRef>(_StrucDocLinkHtmlFootnoteRef_QNAME, StrucDocFootnoteRef.class, StrucDocLinkHtml.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link CE }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "raceCode", scope = POCDMT000040Patient.class)
+    public JAXBElement<CE> createPOCDMT000040PatientRaceCode(CE value) {
+        return new JAXBElement<CE>(_POCDMT000040PatientRaceCode_QNAME, CE.class, POCDMT000040Patient.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link POCDMT000040Guardian }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "guardian", scope = POCDMT000040Patient.class)
+    public JAXBElement<POCDMT000040Guardian> createPOCDMT000040PatientGuardian(POCDMT000040Guardian value) {
+        return new JAXBElement<POCDMT000040Guardian>(_POCDMT000040PatientGuardian_QNAME, POCDMT000040Guardian.class, POCDMT000040Patient.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link II }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "id", scope = POCDMT000040Patient.class)
+    public JAXBElement<II> createPOCDMT000040PatientId(II value) {
+        return new JAXBElement<II>(_POCDMT000040PatientId_QNAME, II.class, POCDMT000040Patient.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link POCDMT000040InfrastructureRootTypeId }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "typeId", scope = POCDMT000040Patient.class)
+    public JAXBElement<POCDMT000040InfrastructureRootTypeId> createPOCDMT000040PatientTypeId(POCDMT000040InfrastructureRootTypeId value) {
+        return new JAXBElement<POCDMT000040InfrastructureRootTypeId>(_POCDMT000040PatientTypeId_QNAME, POCDMT000040InfrastructureRootTypeId.class, POCDMT000040Patient.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link PN }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "name", scope = POCDMT000040Patient.class)
+    public JAXBElement<PN> createPOCDMT000040PatientName(PN value) {
+        return new JAXBElement<PN>(_POCDMT000040PatientName_QNAME, PN.class, POCDMT000040Patient.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link POCDMT000040Birthplace }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "birthplace", scope = POCDMT000040Patient.class)
+    public JAXBElement<POCDMT000040Birthplace> createPOCDMT000040PatientBirthplace(POCDMT000040Birthplace value) {
+        return new JAXBElement<POCDMT000040Birthplace>(_POCDMT000040PatientBirthplace_QNAME, POCDMT000040Birthplace.class, POCDMT000040Patient.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link CE }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "religiousAffiliationCode", scope = POCDMT000040Patient.class)
+    public JAXBElement<CE> createPOCDMT000040PatientReligiousAffiliationCode(CE value) {
+        return new JAXBElement<CE>(_POCDMT000040PatientReligiousAffiliationCode_QNAME, CE.class, POCDMT000040Patient.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link CE }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "maritalStatusCode", scope = POCDMT000040Patient.class)
+    public JAXBElement<CE> createPOCDMT000040PatientMaritalStatusCode(CE value) {
+        return new JAXBElement<CE>(_POCDMT000040PatientMaritalStatusCode_QNAME, CE.class, POCDMT000040Patient.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link CE }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "administrativeGenderCode", scope = POCDMT000040Patient.class)
+    public JAXBElement<CE> createPOCDMT000040PatientAdministrativeGenderCode(CE value) {
+        return new JAXBElement<CE>(_POCDMT000040PatientAdministrativeGenderCode_QNAME, CE.class, POCDMT000040Patient.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link II }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "templateId", scope = POCDMT000040Patient.class)
+    public JAXBElement<II> createPOCDMT000040PatientTemplateId(II value) {
+        return new JAXBElement<II>(_POCDMT000040PatientTemplateId_QNAME, II.class, POCDMT000040Patient.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link TS }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "birthTime", scope = POCDMT000040Patient.class)
+    public JAXBElement<TS> createPOCDMT000040PatientBirthTime(TS value) {
+        return new JAXBElement<TS>(_POCDMT000040PatientBirthTime_QNAME, TS.class, POCDMT000040Patient.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link POCDMT000040LanguageCommunication }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "languageCommunication", scope = POCDMT000040Patient.class)
+    public JAXBElement<POCDMT000040LanguageCommunication> createPOCDMT000040PatientLanguageCommunication(POCDMT000040LanguageCommunication value) {
+        return new JAXBElement<POCDMT000040LanguageCommunication>(_POCDMT000040PatientLanguageCommunication_QNAME, POCDMT000040LanguageCommunication.class, POCDMT000040Patient.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link CS }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "realmCode", scope = POCDMT000040Patient.class)
+    public JAXBElement<CS> createPOCDMT000040PatientRealmCode(CS value) {
+        return new JAXBElement<CS>(_POCDMT000040PatientRealmCode_QNAME, CS.class, POCDMT000040Patient.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link CE }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "ethnicGroupCode", scope = POCDMT000040Patient.class)
+    public JAXBElement<CE> createPOCDMT000040PatientEthnicGroupCode(CE value) {
+        return new JAXBElement<CE>(_POCDMT000040PatientEthnicGroupCode_QNAME, CE.class, POCDMT000040Patient.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link INT }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "width", scope = IVLINT.class)
+    public JAXBElement<INT> createIVLINTWidth(INT value) {
+        return new JAXBElement<INT>(_IVLINTWidth_QNAME, INT.class, IVLINT.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link INT }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "center", scope = IVLINT.class)
+    public JAXBElement<INT> createIVLINTCenter(INT value) {
+        return new JAXBElement<INT>(_IVLINTCenter_QNAME, INT.class, IVLINT.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link IVXBINT }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "low", scope = IVLINT.class)
+    public JAXBElement<IVXBINT> createIVLINTLow(IVXBINT value) {
+        return new JAXBElement<IVXBINT>(_IVLINTLow_QNAME, IVXBINT.class, IVLINT.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link IVXBINT }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "high", scope = IVLINT.class)
+    public JAXBElement<IVXBINT> createIVLINTHigh(IVXBINT value) {
+        return new JAXBElement<IVXBINT>(_IVLINTHigh_QNAME, IVXBINT.class, IVLINT.class, value);
     }
 
     /**
@@ -2294,7 +2386,7 @@ public class ObjectFactory {
      */
     @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "linkHtml", scope = StrucDocTd.class)
     public JAXBElement<StrucDocLinkHtml> createStrucDocTdLinkHtml(StrucDocLinkHtml value) {
-        return new JAXBElement<StrucDocLinkHtml>(_StrucDocParagraphLinkHtml_QNAME, StrucDocLinkHtml.class, StrucDocTd.class, value);
+        return new JAXBElement<StrucDocLinkHtml>(_StrucDocFootnoteLinkHtml_QNAME, StrucDocLinkHtml.class, StrucDocTd.class, value);
     }
 
     /**
@@ -2303,7 +2395,7 @@ public class ObjectFactory {
      */
     @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "list", scope = StrucDocTd.class)
     public JAXBElement<StrucDocList> createStrucDocTdList(StrucDocList value) {
-        return new JAXBElement<StrucDocList>(_StrucDocTdList_QNAME, StrucDocList.class, StrucDocTd.class, value);
+        return new JAXBElement<StrucDocList>(_StrucDocFootnoteList_QNAME, StrucDocList.class, StrucDocTd.class, value);
     }
 
     /**
@@ -2330,7 +2422,7 @@ public class ObjectFactory {
      */
     @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "renderMultiMedia", scope = StrucDocTd.class)
     public JAXBElement<StrucDocRenderMultiMedia> createStrucDocTdRenderMultiMedia(StrucDocRenderMultiMedia value) {
-        return new JAXBElement<StrucDocRenderMultiMedia>(_StrucDocParagraphRenderMultiMedia_QNAME, StrucDocRenderMultiMedia.class, StrucDocTd.class, value);
+        return new JAXBElement<StrucDocRenderMultiMedia>(_StrucDocFootnoteRenderMultiMedia_QNAME, StrucDocRenderMultiMedia.class, StrucDocTd.class, value);
     }
 
     /**
@@ -2348,7 +2440,7 @@ public class ObjectFactory {
      */
     @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "paragraph", scope = StrucDocTd.class)
     public JAXBElement<StrucDocParagraph> createStrucDocTdParagraph(StrucDocParagraph value) {
-        return new JAXBElement<StrucDocParagraph>(_StrucDocTdParagraph_QNAME, StrucDocParagraph.class, StrucDocTd.class, value);
+        return new JAXBElement<StrucDocParagraph>(_StrucDocFootnoteParagraph_QNAME, StrucDocParagraph.class, StrucDocTd.class, value);
     }
 
     /**
@@ -2361,48 +2453,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link REAL }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "width", scope = IVLREAL.class)
-    public JAXBElement<REAL> createIVLREALWidth(REAL value) {
-        return new JAXBElement<REAL>(_IVLPPDPQWidth_QNAME, REAL.class, IVLREAL.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link REAL }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "center", scope = IVLREAL.class)
-    public JAXBElement<REAL> createIVLREALCenter(REAL value) {
-        return new JAXBElement<REAL>(_IVLPPDPQCenter_QNAME, REAL.class, IVLREAL.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link IVXBREAL }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "low", scope = IVLREAL.class)
-    public JAXBElement<IVXBREAL> createIVLREALLow(IVXBREAL value) {
-        return new JAXBElement<IVXBREAL>(_IVLPPDPQLow_QNAME, IVXBREAL.class, IVLREAL.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link IVXBREAL }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "high", scope = IVLREAL.class)
-    public JAXBElement<IVXBREAL> createIVLREALHigh(IVXBREAL value) {
-        return new JAXBElement<IVXBREAL>(_IVLPPDPQHigh_QNAME, IVXBREAL.class, IVLREAL.class, value);
-    }
-
-    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link PPDPQ }{@code >}}
      * 
      */
     @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "width", scope = IVLPPDTS.class)
     public JAXBElement<PPDPQ> createIVLPPDTSWidth(PPDPQ value) {
-        return new JAXBElement<PPDPQ>(_IVLPPDPQWidth_QNAME, PPDPQ.class, IVLPPDTS.class, value);
+        return new JAXBElement<PPDPQ>(_IVLINTWidth_QNAME, PPDPQ.class, IVLPPDTS.class, value);
     }
 
     /**
@@ -2411,7 +2467,7 @@ public class ObjectFactory {
      */
     @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "center", scope = IVLPPDTS.class)
     public JAXBElement<PPDTS> createIVLPPDTSCenter(PPDTS value) {
-        return new JAXBElement<PPDTS>(_IVLPPDPQCenter_QNAME, PPDTS.class, IVLPPDTS.class, value);
+        return new JAXBElement<PPDTS>(_IVLINTCenter_QNAME, PPDTS.class, IVLPPDTS.class, value);
     }
 
     /**
@@ -2420,7 +2476,7 @@ public class ObjectFactory {
      */
     @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "low", scope = IVLPPDTS.class)
     public JAXBElement<IVXBPPDTS> createIVLPPDTSLow(IVXBPPDTS value) {
-        return new JAXBElement<IVXBPPDTS>(_IVLPPDPQLow_QNAME, IVXBPPDTS.class, IVLPPDTS.class, value);
+        return new JAXBElement<IVXBPPDTS>(_IVLINTLow_QNAME, IVXBPPDTS.class, IVLPPDTS.class, value);
     }
 
     /**
@@ -2429,7 +2485,7 @@ public class ObjectFactory {
      */
     @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "high", scope = IVLPPDTS.class)
     public JAXBElement<IVXBPPDTS> createIVLPPDTSHigh(IVXBPPDTS value) {
-        return new JAXBElement<IVXBPPDTS>(_IVLPPDPQHigh_QNAME, IVXBPPDTS.class, IVLPPDTS.class, value);
+        return new JAXBElement<IVXBPPDTS>(_IVLINTHigh_QNAME, IVXBPPDTS.class, IVLPPDTS.class, value);
     }
 
     /**
@@ -2456,7 +2512,7 @@ public class ObjectFactory {
      */
     @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "linkHtml", scope = StrucDocContent.class)
     public JAXBElement<StrucDocLinkHtml> createStrucDocContentLinkHtml(StrucDocLinkHtml value) {
-        return new JAXBElement<StrucDocLinkHtml>(_StrucDocParagraphLinkHtml_QNAME, StrucDocLinkHtml.class, StrucDocContent.class, value);
+        return new JAXBElement<StrucDocLinkHtml>(_StrucDocFootnoteLinkHtml_QNAME, StrucDocLinkHtml.class, StrucDocContent.class, value);
     }
 
     /**
@@ -2483,7 +2539,7 @@ public class ObjectFactory {
      */
     @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "renderMultiMedia", scope = StrucDocContent.class)
     public JAXBElement<StrucDocRenderMultiMedia> createStrucDocContentRenderMultiMedia(StrucDocRenderMultiMedia value) {
-        return new JAXBElement<StrucDocRenderMultiMedia>(_StrucDocParagraphRenderMultiMedia_QNAME, StrucDocRenderMultiMedia.class, StrucDocContent.class, value);
+        return new JAXBElement<StrucDocRenderMultiMedia>(_StrucDocFootnoteRenderMultiMedia_QNAME, StrucDocRenderMultiMedia.class, StrucDocContent.class, value);
     }
 
     /**
@@ -2502,6 +2558,78 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "br", scope = StrucDocContent.class)
     public JAXBElement<String> createStrucDocContentBr(String value) {
         return new JAXBElement<String>(_StrucDocTitleFootnoteBr_QNAME, String.class, StrucDocContent.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link PPDPQ }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "width", scope = IVLPPDPQ.class)
+    public JAXBElement<PPDPQ> createIVLPPDPQWidth(PPDPQ value) {
+        return new JAXBElement<PPDPQ>(_IVLINTWidth_QNAME, PPDPQ.class, IVLPPDPQ.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link PPDPQ }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "center", scope = IVLPPDPQ.class)
+    public JAXBElement<PPDPQ> createIVLPPDPQCenter(PPDPQ value) {
+        return new JAXBElement<PPDPQ>(_IVLINTCenter_QNAME, PPDPQ.class, IVLPPDPQ.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link IVXBPPDPQ }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "low", scope = IVLPPDPQ.class)
+    public JAXBElement<IVXBPPDPQ> createIVLPPDPQLow(IVXBPPDPQ value) {
+        return new JAXBElement<IVXBPPDPQ>(_IVLINTLow_QNAME, IVXBPPDPQ.class, IVLPPDPQ.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link IVXBPPDPQ }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "high", scope = IVLPPDPQ.class)
+    public JAXBElement<IVXBPPDPQ> createIVLPPDPQHigh(IVXBPPDPQ value) {
+        return new JAXBElement<IVXBPPDPQ>(_IVLINTHigh_QNAME, IVXBPPDPQ.class, IVLPPDPQ.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link MO }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "width", scope = IVLMO.class)
+    public JAXBElement<MO> createIVLMOWidth(MO value) {
+        return new JAXBElement<MO>(_IVLINTWidth_QNAME, MO.class, IVLMO.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link MO }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "center", scope = IVLMO.class)
+    public JAXBElement<MO> createIVLMOCenter(MO value) {
+        return new JAXBElement<MO>(_IVLINTCenter_QNAME, MO.class, IVLMO.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link IVXBMO }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "low", scope = IVLMO.class)
+    public JAXBElement<IVXBMO> createIVLMOLow(IVXBMO value) {
+        return new JAXBElement<IVXBMO>(_IVLINTLow_QNAME, IVXBMO.class, IVLMO.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link IVXBMO }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "high", scope = IVLMO.class)
+    public JAXBElement<IVXBMO> createIVLMOHigh(IVXBMO value) {
+        return new JAXBElement<IVXBMO>(_IVLINTHigh_QNAME, IVXBMO.class, IVLMO.class, value);
     }
 
     /**
@@ -2559,300 +2687,246 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link MO }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link PQ }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "width", scope = IVLMO.class)
-    public JAXBElement<MO> createIVLMOWidth(MO value) {
-        return new JAXBElement<MO>(_IVLPPDPQWidth_QNAME, MO.class, IVLMO.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link MO }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "center", scope = IVLMO.class)
-    public JAXBElement<MO> createIVLMOCenter(MO value) {
-        return new JAXBElement<MO>(_IVLPPDPQCenter_QNAME, MO.class, IVLMO.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link IVXBMO }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "low", scope = IVLMO.class)
-    public JAXBElement<IVXBMO> createIVLMOLow(IVXBMO value) {
-        return new JAXBElement<IVXBMO>(_IVLPPDPQLow_QNAME, IVXBMO.class, IVLMO.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link IVXBMO }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "high", scope = IVLMO.class)
-    public JAXBElement<IVXBMO> createIVLMOHigh(IVXBMO value) {
-        return new JAXBElement<IVXBMO>(_IVLPPDPQHigh_QNAME, IVXBMO.class, IVLMO.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocSup }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "sup", scope = StrucDocText.class)
-    public JAXBElement<StrucDocSup> createStrucDocTextSup(StrucDocSup value) {
-        return new JAXBElement<StrucDocSup>(_StrucDocTitleFootnoteSup_QNAME, StrucDocSup.class, StrucDocText.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocContent }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "content", scope = StrucDocText.class)
-    public JAXBElement<StrucDocContent> createStrucDocTextContent(StrucDocContent value) {
-        return new JAXBElement<StrucDocContent>(_StrucDocTitleFootnoteContent_QNAME, StrucDocContent.class, StrucDocText.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocTable }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "table", scope = StrucDocText.class)
-    public JAXBElement<StrucDocTable> createStrucDocTextTable(StrucDocTable value) {
-        return new JAXBElement<StrucDocTable>(_StrucDocTextTable_QNAME, StrucDocTable.class, StrucDocText.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocLinkHtml }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "linkHtml", scope = StrucDocText.class)
-    public JAXBElement<StrucDocLinkHtml> createStrucDocTextLinkHtml(StrucDocLinkHtml value) {
-        return new JAXBElement<StrucDocLinkHtml>(_StrucDocParagraphLinkHtml_QNAME, StrucDocLinkHtml.class, StrucDocText.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocList }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "list", scope = StrucDocText.class)
-    public JAXBElement<StrucDocList> createStrucDocTextList(StrucDocList value) {
-        return new JAXBElement<StrucDocList>(_StrucDocTdList_QNAME, StrucDocList.class, StrucDocText.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocFootnote }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "footnote", scope = StrucDocText.class)
-    public JAXBElement<StrucDocFootnote> createStrucDocTextFootnote(StrucDocFootnote value) {
-        return new JAXBElement<StrucDocFootnote>(_StrucDocLinkHtmlFootnote_QNAME, StrucDocFootnote.class, StrucDocText.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocFootnoteRef }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "footnoteRef", scope = StrucDocText.class)
-    public JAXBElement<StrucDocFootnoteRef> createStrucDocTextFootnoteRef(StrucDocFootnoteRef value) {
-        return new JAXBElement<StrucDocFootnoteRef>(_StrucDocLinkHtmlFootnoteRef_QNAME, StrucDocFootnoteRef.class, StrucDocText.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocRenderMultiMedia }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "renderMultiMedia", scope = StrucDocText.class)
-    public JAXBElement<StrucDocRenderMultiMedia> createStrucDocTextRenderMultiMedia(StrucDocRenderMultiMedia value) {
-        return new JAXBElement<StrucDocRenderMultiMedia>(_StrucDocParagraphRenderMultiMedia_QNAME, StrucDocRenderMultiMedia.class, StrucDocText.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocSub }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "sub", scope = StrucDocText.class)
-    public JAXBElement<StrucDocSub> createStrucDocTextSub(StrucDocSub value) {
-        return new JAXBElement<StrucDocSub>(_StrucDocTitleFootnoteSub_QNAME, StrucDocSub.class, StrucDocText.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocParagraph }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "paragraph", scope = StrucDocText.class)
-    public JAXBElement<StrucDocParagraph> createStrucDocTextParagraph(StrucDocParagraph value) {
-        return new JAXBElement<StrucDocParagraph>(_StrucDocTdParagraph_QNAME, StrucDocParagraph.class, StrucDocText.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "br", scope = StrucDocText.class)
-    public JAXBElement<String> createStrucDocTextBr(String value) {
-        return new JAXBElement<String>(_StrucDocTitleFootnoteBr_QNAME, String.class, StrucDocText.class, value);
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "width", scope = IVLPQ.class)
+    public JAXBElement<PQ> createIVLPQWidth(PQ value) {
+        return new JAXBElement<PQ>(_IVLINTWidth_QNAME, PQ.class, IVLPQ.class, value);
     }
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link PQ }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "width", scope = IVLTS.class)
-    public JAXBElement<PQ> createIVLTSWidth(PQ value) {
-        return new JAXBElement<PQ>(_IVLPPDPQWidth_QNAME, PQ.class, IVLTS.class, value);
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "center", scope = IVLPQ.class)
+    public JAXBElement<PQ> createIVLPQCenter(PQ value) {
+        return new JAXBElement<PQ>(_IVLINTCenter_QNAME, PQ.class, IVLPQ.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link TS }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link IVXBPQ }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "center", scope = IVLTS.class)
-    public JAXBElement<TS> createIVLTSCenter(TS value) {
-        return new JAXBElement<TS>(_IVLPPDPQCenter_QNAME, TS.class, IVLTS.class, value);
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "low", scope = IVLPQ.class)
+    public JAXBElement<IVXBPQ> createIVLPQLow(IVXBPQ value) {
+        return new JAXBElement<IVXBPQ>(_IVLINTLow_QNAME, IVXBPQ.class, IVLPQ.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link IVXBTS }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link IVXBPQ }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "low", scope = IVLTS.class)
-    public JAXBElement<IVXBTS> createIVLTSLow(IVXBTS value) {
-        return new JAXBElement<IVXBTS>(_IVLPPDPQLow_QNAME, IVXBTS.class, IVLTS.class, value);
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "high", scope = IVLPQ.class)
+    public JAXBElement<IVXBPQ> createIVLPQHigh(IVXBPQ value) {
+        return new JAXBElement<IVXBPQ>(_IVLINTHigh_QNAME, IVXBPQ.class, IVLPQ.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link IVXBTS }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Thumbnail }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "high", scope = IVLTS.class)
-    public JAXBElement<IVXBTS> createIVLTSHigh(IVXBTS value) {
-        return new JAXBElement<IVXBTS>(_IVLPPDPQHigh_QNAME, IVXBTS.class, IVLTS.class, value);
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "thumbnail", scope = ED.class)
+    public JAXBElement<Thumbnail> createEDThumbnail(Thumbnail value) {
+        return new JAXBElement<Thumbnail>(_EDThumbnail_QNAME, Thumbnail.class, ED.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocSup }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link TEL }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "sup", scope = StrucDocTitleContent.class)
-    public JAXBElement<StrucDocSup> createStrucDocTitleContentSup(StrucDocSup value) {
-        return new JAXBElement<StrucDocSup>(_StrucDocTitleFootnoteSup_QNAME, StrucDocSup.class, StrucDocTitleContent.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocTitleContent }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "content", scope = StrucDocTitleContent.class)
-    public JAXBElement<StrucDocTitleContent> createStrucDocTitleContentContent(StrucDocTitleContent value) {
-        return new JAXBElement<StrucDocTitleContent>(_StrucDocTitleFootnoteContent_QNAME, StrucDocTitleContent.class, StrucDocTitleContent.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocTitleFootnote }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "footnote", scope = StrucDocTitleContent.class)
-    public JAXBElement<StrucDocTitleFootnote> createStrucDocTitleContentFootnote(StrucDocTitleFootnote value) {
-        return new JAXBElement<StrucDocTitleFootnote>(_StrucDocLinkHtmlFootnote_QNAME, StrucDocTitleFootnote.class, StrucDocTitleContent.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocFootnoteRef }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "footnoteRef", scope = StrucDocTitleContent.class)
-    public JAXBElement<StrucDocFootnoteRef> createStrucDocTitleContentFootnoteRef(StrucDocFootnoteRef value) {
-        return new JAXBElement<StrucDocFootnoteRef>(_StrucDocLinkHtmlFootnoteRef_QNAME, StrucDocFootnoteRef.class, StrucDocTitleContent.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocSub }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "sub", scope = StrucDocTitleContent.class)
-    public JAXBElement<StrucDocSub> createStrucDocTitleContentSub(StrucDocSub value) {
-        return new JAXBElement<StrucDocSub>(_StrucDocTitleFootnoteSub_QNAME, StrucDocSub.class, StrucDocTitleContent.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "br", scope = StrucDocTitleContent.class)
-    public JAXBElement<String> createStrucDocTitleContentBr(String value) {
-        return new JAXBElement<String>(_StrucDocTitleFootnoteBr_QNAME, String.class, StrucDocTitleContent.class, value);
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "reference", scope = ED.class)
+    public JAXBElement<TEL> createEDReference(TEL value) {
+        return new JAXBElement<TEL>(_EDReference_QNAME, TEL.class, ED.class, value);
     }
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocSup }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "sup", scope = StrucDocTh.class)
-    public JAXBElement<StrucDocSup> createStrucDocThSup(StrucDocSup value) {
-        return new JAXBElement<StrucDocSup>(_StrucDocTitleFootnoteSup_QNAME, StrucDocSup.class, StrucDocTh.class, value);
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "sup", scope = StrucDocParagraph.class)
+    public JAXBElement<StrucDocSup> createStrucDocParagraphSup(StrucDocSup value) {
+        return new JAXBElement<StrucDocSup>(_StrucDocTitleFootnoteSup_QNAME, StrucDocSup.class, StrucDocParagraph.class, value);
     }
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocContent }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "content", scope = StrucDocTh.class)
-    public JAXBElement<StrucDocContent> createStrucDocThContent(StrucDocContent value) {
-        return new JAXBElement<StrucDocContent>(_StrucDocTitleFootnoteContent_QNAME, StrucDocContent.class, StrucDocTh.class, value);
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "content", scope = StrucDocParagraph.class)
+    public JAXBElement<StrucDocContent> createStrucDocParagraphContent(StrucDocContent value) {
+        return new JAXBElement<StrucDocContent>(_StrucDocTitleFootnoteContent_QNAME, StrucDocContent.class, StrucDocParagraph.class, value);
     }
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocLinkHtml }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "linkHtml", scope = StrucDocTh.class)
-    public JAXBElement<StrucDocLinkHtml> createStrucDocThLinkHtml(StrucDocLinkHtml value) {
-        return new JAXBElement<StrucDocLinkHtml>(_StrucDocParagraphLinkHtml_QNAME, StrucDocLinkHtml.class, StrucDocTh.class, value);
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "linkHtml", scope = StrucDocParagraph.class)
+    public JAXBElement<StrucDocLinkHtml> createStrucDocParagraphLinkHtml(StrucDocLinkHtml value) {
+        return new JAXBElement<StrucDocLinkHtml>(_StrucDocFootnoteLinkHtml_QNAME, StrucDocLinkHtml.class, StrucDocParagraph.class, value);
     }
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocFootnote }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "footnote", scope = StrucDocTh.class)
-    public JAXBElement<StrucDocFootnote> createStrucDocThFootnote(StrucDocFootnote value) {
-        return new JAXBElement<StrucDocFootnote>(_StrucDocLinkHtmlFootnote_QNAME, StrucDocFootnote.class, StrucDocTh.class, value);
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "footnote", scope = StrucDocParagraph.class)
+    public JAXBElement<StrucDocFootnote> createStrucDocParagraphFootnote(StrucDocFootnote value) {
+        return new JAXBElement<StrucDocFootnote>(_StrucDocLinkHtmlFootnote_QNAME, StrucDocFootnote.class, StrucDocParagraph.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocCaption }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "caption", scope = StrucDocParagraph.class)
+    public JAXBElement<StrucDocCaption> createStrucDocParagraphCaption(StrucDocCaption value) {
+        return new JAXBElement<StrucDocCaption>(_StrucDocParagraphCaption_QNAME, StrucDocCaption.class, StrucDocParagraph.class, value);
     }
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocFootnoteRef }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "footnoteRef", scope = StrucDocTh.class)
-    public JAXBElement<StrucDocFootnoteRef> createStrucDocThFootnoteRef(StrucDocFootnoteRef value) {
-        return new JAXBElement<StrucDocFootnoteRef>(_StrucDocLinkHtmlFootnoteRef_QNAME, StrucDocFootnoteRef.class, StrucDocTh.class, value);
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "footnoteRef", scope = StrucDocParagraph.class)
+    public JAXBElement<StrucDocFootnoteRef> createStrucDocParagraphFootnoteRef(StrucDocFootnoteRef value) {
+        return new JAXBElement<StrucDocFootnoteRef>(_StrucDocLinkHtmlFootnoteRef_QNAME, StrucDocFootnoteRef.class, StrucDocParagraph.class, value);
     }
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocRenderMultiMedia }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "renderMultiMedia", scope = StrucDocTh.class)
-    public JAXBElement<StrucDocRenderMultiMedia> createStrucDocThRenderMultiMedia(StrucDocRenderMultiMedia value) {
-        return new JAXBElement<StrucDocRenderMultiMedia>(_StrucDocParagraphRenderMultiMedia_QNAME, StrucDocRenderMultiMedia.class, StrucDocTh.class, value);
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "renderMultiMedia", scope = StrucDocParagraph.class)
+    public JAXBElement<StrucDocRenderMultiMedia> createStrucDocParagraphRenderMultiMedia(StrucDocRenderMultiMedia value) {
+        return new JAXBElement<StrucDocRenderMultiMedia>(_StrucDocFootnoteRenderMultiMedia_QNAME, StrucDocRenderMultiMedia.class, StrucDocParagraph.class, value);
     }
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocSub }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "sub", scope = StrucDocTh.class)
-    public JAXBElement<StrucDocSub> createStrucDocThSub(StrucDocSub value) {
-        return new JAXBElement<StrucDocSub>(_StrucDocTitleFootnoteSub_QNAME, StrucDocSub.class, StrucDocTh.class, value);
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "sub", scope = StrucDocParagraph.class)
+    public JAXBElement<StrucDocSub> createStrucDocParagraphSub(StrucDocSub value) {
+        return new JAXBElement<StrucDocSub>(_StrucDocTitleFootnoteSub_QNAME, StrucDocSub.class, StrucDocParagraph.class, value);
     }
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "br", scope = StrucDocTh.class)
-    public JAXBElement<String> createStrucDocThBr(String value) {
-        return new JAXBElement<String>(_StrucDocTitleFootnoteBr_QNAME, String.class, StrucDocTh.class, value);
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "br", scope = StrucDocParagraph.class)
+    public JAXBElement<String> createStrucDocParagraphBr(String value) {
+        return new JAXBElement<String>(_StrucDocTitleFootnoteBr_QNAME, String.class, StrucDocParagraph.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocSup }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "sup", scope = StrucDocItem.class)
+    public JAXBElement<StrucDocSup> createStrucDocItemSup(StrucDocSup value) {
+        return new JAXBElement<StrucDocSup>(_StrucDocTitleFootnoteSup_QNAME, StrucDocSup.class, StrucDocItem.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocContent }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "content", scope = StrucDocItem.class)
+    public JAXBElement<StrucDocContent> createStrucDocItemContent(StrucDocContent value) {
+        return new JAXBElement<StrucDocContent>(_StrucDocTitleFootnoteContent_QNAME, StrucDocContent.class, StrucDocItem.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocTable }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "table", scope = StrucDocItem.class)
+    public JAXBElement<StrucDocTable> createStrucDocItemTable(StrucDocTable value) {
+        return new JAXBElement<StrucDocTable>(_StrucDocFootnoteTable_QNAME, StrucDocTable.class, StrucDocItem.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocLinkHtml }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "linkHtml", scope = StrucDocItem.class)
+    public JAXBElement<StrucDocLinkHtml> createStrucDocItemLinkHtml(StrucDocLinkHtml value) {
+        return new JAXBElement<StrucDocLinkHtml>(_StrucDocFootnoteLinkHtml_QNAME, StrucDocLinkHtml.class, StrucDocItem.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocList }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "list", scope = StrucDocItem.class)
+    public JAXBElement<StrucDocList> createStrucDocItemList(StrucDocList value) {
+        return new JAXBElement<StrucDocList>(_StrucDocFootnoteList_QNAME, StrucDocList.class, StrucDocItem.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocFootnote }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "footnote", scope = StrucDocItem.class)
+    public JAXBElement<StrucDocFootnote> createStrucDocItemFootnote(StrucDocFootnote value) {
+        return new JAXBElement<StrucDocFootnote>(_StrucDocLinkHtmlFootnote_QNAME, StrucDocFootnote.class, StrucDocItem.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocCaption }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "caption", scope = StrucDocItem.class)
+    public JAXBElement<StrucDocCaption> createStrucDocItemCaption(StrucDocCaption value) {
+        return new JAXBElement<StrucDocCaption>(_StrucDocParagraphCaption_QNAME, StrucDocCaption.class, StrucDocItem.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocFootnoteRef }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "footnoteRef", scope = StrucDocItem.class)
+    public JAXBElement<StrucDocFootnoteRef> createStrucDocItemFootnoteRef(StrucDocFootnoteRef value) {
+        return new JAXBElement<StrucDocFootnoteRef>(_StrucDocLinkHtmlFootnoteRef_QNAME, StrucDocFootnoteRef.class, StrucDocItem.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocRenderMultiMedia }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "renderMultiMedia", scope = StrucDocItem.class)
+    public JAXBElement<StrucDocRenderMultiMedia> createStrucDocItemRenderMultiMedia(StrucDocRenderMultiMedia value) {
+        return new JAXBElement<StrucDocRenderMultiMedia>(_StrucDocFootnoteRenderMultiMedia_QNAME, StrucDocRenderMultiMedia.class, StrucDocItem.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocSub }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "sub", scope = StrucDocItem.class)
+    public JAXBElement<StrucDocSub> createStrucDocItemSub(StrucDocSub value) {
+        return new JAXBElement<StrucDocSub>(_StrucDocTitleFootnoteSub_QNAME, StrucDocSub.class, StrucDocItem.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocParagraph }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "paragraph", scope = StrucDocItem.class)
+    public JAXBElement<StrucDocParagraph> createStrucDocItemParagraph(StrucDocParagraph value) {
+        return new JAXBElement<StrucDocParagraph>(_StrucDocFootnoteParagraph_QNAME, StrucDocParagraph.class, StrucDocItem.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "br", scope = StrucDocItem.class)
+    public JAXBElement<String> createStrucDocItemBr(String value) {
+        return new JAXBElement<String>(_StrucDocTitleFootnoteBr_QNAME, String.class, StrucDocItem.class, value);
     }
 
     /**
@@ -2870,7 +2944,7 @@ public class ObjectFactory {
      */
     @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "linkHtml", scope = StrucDocCaption.class)
     public JAXBElement<StrucDocLinkHtml> createStrucDocCaptionLinkHtml(StrucDocLinkHtml value) {
-        return new JAXBElement<StrucDocLinkHtml>(_StrucDocParagraphLinkHtml_QNAME, StrucDocLinkHtml.class, StrucDocCaption.class, value);
+        return new JAXBElement<StrucDocLinkHtml>(_StrucDocFootnoteLinkHtml_QNAME, StrucDocLinkHtml.class, StrucDocCaption.class, value);
     }
 
     /**
@@ -2901,39 +2975,75 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link INT }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocSup }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "width", scope = IVLINT.class)
-    public JAXBElement<INT> createIVLINTWidth(INT value) {
-        return new JAXBElement<INT>(_IVLPPDPQWidth_QNAME, INT.class, IVLINT.class, value);
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "sup", scope = StrucDocTh.class)
+    public JAXBElement<StrucDocSup> createStrucDocThSup(StrucDocSup value) {
+        return new JAXBElement<StrucDocSup>(_StrucDocTitleFootnoteSup_QNAME, StrucDocSup.class, StrucDocTh.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link INT }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocContent }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "center", scope = IVLINT.class)
-    public JAXBElement<INT> createIVLINTCenter(INT value) {
-        return new JAXBElement<INT>(_IVLPPDPQCenter_QNAME, INT.class, IVLINT.class, value);
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "content", scope = StrucDocTh.class)
+    public JAXBElement<StrucDocContent> createStrucDocThContent(StrucDocContent value) {
+        return new JAXBElement<StrucDocContent>(_StrucDocTitleFootnoteContent_QNAME, StrucDocContent.class, StrucDocTh.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link IVXBINT }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocLinkHtml }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "low", scope = IVLINT.class)
-    public JAXBElement<IVXBINT> createIVLINTLow(IVXBINT value) {
-        return new JAXBElement<IVXBINT>(_IVLPPDPQLow_QNAME, IVXBINT.class, IVLINT.class, value);
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "linkHtml", scope = StrucDocTh.class)
+    public JAXBElement<StrucDocLinkHtml> createStrucDocThLinkHtml(StrucDocLinkHtml value) {
+        return new JAXBElement<StrucDocLinkHtml>(_StrucDocFootnoteLinkHtml_QNAME, StrucDocLinkHtml.class, StrucDocTh.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link IVXBINT }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocFootnote }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "high", scope = IVLINT.class)
-    public JAXBElement<IVXBINT> createIVLINTHigh(IVXBINT value) {
-        return new JAXBElement<IVXBINT>(_IVLPPDPQHigh_QNAME, IVXBINT.class, IVLINT.class, value);
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "footnote", scope = StrucDocTh.class)
+    public JAXBElement<StrucDocFootnote> createStrucDocThFootnote(StrucDocFootnote value) {
+        return new JAXBElement<StrucDocFootnote>(_StrucDocLinkHtmlFootnote_QNAME, StrucDocFootnote.class, StrucDocTh.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocFootnoteRef }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "footnoteRef", scope = StrucDocTh.class)
+    public JAXBElement<StrucDocFootnoteRef> createStrucDocThFootnoteRef(StrucDocFootnoteRef value) {
+        return new JAXBElement<StrucDocFootnoteRef>(_StrucDocLinkHtmlFootnoteRef_QNAME, StrucDocFootnoteRef.class, StrucDocTh.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocRenderMultiMedia }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "renderMultiMedia", scope = StrucDocTh.class)
+    public JAXBElement<StrucDocRenderMultiMedia> createStrucDocThRenderMultiMedia(StrucDocRenderMultiMedia value) {
+        return new JAXBElement<StrucDocRenderMultiMedia>(_StrucDocFootnoteRenderMultiMedia_QNAME, StrucDocRenderMultiMedia.class, StrucDocTh.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocSub }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "sub", scope = StrucDocTh.class)
+    public JAXBElement<StrucDocSub> createStrucDocThSub(StrucDocSub value) {
+        return new JAXBElement<StrucDocSub>(_StrucDocTitleFootnoteSub_QNAME, StrucDocSub.class, StrucDocTh.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "br", scope = StrucDocTh.class)
+    public JAXBElement<String> createStrucDocThBr(String value) {
+        return new JAXBElement<String>(_StrucDocTitleFootnoteBr_QNAME, String.class, StrucDocTh.class, value);
     }
 
     /**
@@ -3189,318 +3299,228 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link CE }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "raceCode", scope = POCDMT000040Patient.class)
-    public JAXBElement<CE> createPOCDMT000040PatientRaceCode(CE value) {
-        return new JAXBElement<CE>(_POCDMT000040PatientRaceCode_QNAME, CE.class, POCDMT000040Patient.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link POCDMT000040Guardian }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "guardian", scope = POCDMT000040Patient.class)
-    public JAXBElement<POCDMT000040Guardian> createPOCDMT000040PatientGuardian(POCDMT000040Guardian value) {
-        return new JAXBElement<POCDMT000040Guardian>(_POCDMT000040PatientGuardian_QNAME, POCDMT000040Guardian.class, POCDMT000040Patient.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link II }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "id", scope = POCDMT000040Patient.class)
-    public JAXBElement<II> createPOCDMT000040PatientId(II value) {
-        return new JAXBElement<II>(_POCDMT000040PatientId_QNAME, II.class, POCDMT000040Patient.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link POCDMT000040InfrastructureRootTypeId }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "typeId", scope = POCDMT000040Patient.class)
-    public JAXBElement<POCDMT000040InfrastructureRootTypeId> createPOCDMT000040PatientTypeId(POCDMT000040InfrastructureRootTypeId value) {
-        return new JAXBElement<POCDMT000040InfrastructureRootTypeId>(_POCDMT000040PatientTypeId_QNAME, POCDMT000040InfrastructureRootTypeId.class, POCDMT000040Patient.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link PN }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "name", scope = POCDMT000040Patient.class)
-    public JAXBElement<PN> createPOCDMT000040PatientName(PN value) {
-        return new JAXBElement<PN>(_POCDMT000040PatientName_QNAME, PN.class, POCDMT000040Patient.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link POCDMT000040Birthplace }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "birthplace", scope = POCDMT000040Patient.class)
-    public JAXBElement<POCDMT000040Birthplace> createPOCDMT000040PatientBirthplace(POCDMT000040Birthplace value) {
-        return new JAXBElement<POCDMT000040Birthplace>(_POCDMT000040PatientBirthplace_QNAME, POCDMT000040Birthplace.class, POCDMT000040Patient.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link CE }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "religiousAffiliationCode", scope = POCDMT000040Patient.class)
-    public JAXBElement<CE> createPOCDMT000040PatientReligiousAffiliationCode(CE value) {
-        return new JAXBElement<CE>(_POCDMT000040PatientReligiousAffiliationCode_QNAME, CE.class, POCDMT000040Patient.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link CE }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "maritalStatusCode", scope = POCDMT000040Patient.class)
-    public JAXBElement<CE> createPOCDMT000040PatientMaritalStatusCode(CE value) {
-        return new JAXBElement<CE>(_POCDMT000040PatientMaritalStatusCode_QNAME, CE.class, POCDMT000040Patient.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link CE }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "administrativeGenderCode", scope = POCDMT000040Patient.class)
-    public JAXBElement<CE> createPOCDMT000040PatientAdministrativeGenderCode(CE value) {
-        return new JAXBElement<CE>(_POCDMT000040PatientAdministrativeGenderCode_QNAME, CE.class, POCDMT000040Patient.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link II }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "templateId", scope = POCDMT000040Patient.class)
-    public JAXBElement<II> createPOCDMT000040PatientTemplateId(II value) {
-        return new JAXBElement<II>(_POCDMT000040PatientTemplateId_QNAME, II.class, POCDMT000040Patient.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link TS }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "birthTime", scope = POCDMT000040Patient.class)
-    public JAXBElement<TS> createPOCDMT000040PatientBirthTime(TS value) {
-        return new JAXBElement<TS>(_POCDMT000040PatientBirthTime_QNAME, TS.class, POCDMT000040Patient.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link POCDMT000040LanguageCommunication }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "languageCommunication", scope = POCDMT000040Patient.class)
-    public JAXBElement<POCDMT000040LanguageCommunication> createPOCDMT000040PatientLanguageCommunication(POCDMT000040LanguageCommunication value) {
-        return new JAXBElement<POCDMT000040LanguageCommunication>(_POCDMT000040PatientLanguageCommunication_QNAME, POCDMT000040LanguageCommunication.class, POCDMT000040Patient.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link CS }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "realmCode", scope = POCDMT000040Patient.class)
-    public JAXBElement<CS> createPOCDMT000040PatientRealmCode(CS value) {
-        return new JAXBElement<CS>(_POCDMT000040PatientRealmCode_QNAME, CS.class, POCDMT000040Patient.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link CE }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "ethnicGroupCode", scope = POCDMT000040Patient.class)
-    public JAXBElement<CE> createPOCDMT000040PatientEthnicGroupCode(CE value) {
-        return new JAXBElement<CE>(_POCDMT000040PatientEthnicGroupCode_QNAME, CE.class, POCDMT000040Patient.class, value);
-    }
-
-    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocSup }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "sup", scope = StrucDocFootnote.class)
-    public JAXBElement<StrucDocSup> createStrucDocFootnoteSup(StrucDocSup value) {
-        return new JAXBElement<StrucDocSup>(_StrucDocTitleFootnoteSup_QNAME, StrucDocSup.class, StrucDocFootnote.class, value);
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "sup", scope = StrucDocTitleContent.class)
+    public JAXBElement<StrucDocSup> createStrucDocTitleContentSup(StrucDocSup value) {
+        return new JAXBElement<StrucDocSup>(_StrucDocTitleFootnoteSup_QNAME, StrucDocSup.class, StrucDocTitleContent.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocContent }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocTitleContent }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "content", scope = StrucDocFootnote.class)
-    public JAXBElement<StrucDocContent> createStrucDocFootnoteContent(StrucDocContent value) {
-        return new JAXBElement<StrucDocContent>(_StrucDocTitleFootnoteContent_QNAME, StrucDocContent.class, StrucDocFootnote.class, value);
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "content", scope = StrucDocTitleContent.class)
+    public JAXBElement<StrucDocTitleContent> createStrucDocTitleContentContent(StrucDocTitleContent value) {
+        return new JAXBElement<StrucDocTitleContent>(_StrucDocTitleFootnoteContent_QNAME, StrucDocTitleContent.class, StrucDocTitleContent.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocTable }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocTitleFootnote }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "table", scope = StrucDocFootnote.class)
-    public JAXBElement<StrucDocTable> createStrucDocFootnoteTable(StrucDocTable value) {
-        return new JAXBElement<StrucDocTable>(_StrucDocTextTable_QNAME, StrucDocTable.class, StrucDocFootnote.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocLinkHtml }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "linkHtml", scope = StrucDocFootnote.class)
-    public JAXBElement<StrucDocLinkHtml> createStrucDocFootnoteLinkHtml(StrucDocLinkHtml value) {
-        return new JAXBElement<StrucDocLinkHtml>(_StrucDocParagraphLinkHtml_QNAME, StrucDocLinkHtml.class, StrucDocFootnote.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocList }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "list", scope = StrucDocFootnote.class)
-    public JAXBElement<StrucDocList> createStrucDocFootnoteList(StrucDocList value) {
-        return new JAXBElement<StrucDocList>(_StrucDocTdList_QNAME, StrucDocList.class, StrucDocFootnote.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocRenderMultiMedia }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "renderMultiMedia", scope = StrucDocFootnote.class)
-    public JAXBElement<StrucDocRenderMultiMedia> createStrucDocFootnoteRenderMultiMedia(StrucDocRenderMultiMedia value) {
-        return new JAXBElement<StrucDocRenderMultiMedia>(_StrucDocParagraphRenderMultiMedia_QNAME, StrucDocRenderMultiMedia.class, StrucDocFootnote.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocSub }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "sub", scope = StrucDocFootnote.class)
-    public JAXBElement<StrucDocSub> createStrucDocFootnoteSub(StrucDocSub value) {
-        return new JAXBElement<StrucDocSub>(_StrucDocTitleFootnoteSub_QNAME, StrucDocSub.class, StrucDocFootnote.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocParagraph }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "paragraph", scope = StrucDocFootnote.class)
-    public JAXBElement<StrucDocParagraph> createStrucDocFootnoteParagraph(StrucDocParagraph value) {
-        return new JAXBElement<StrucDocParagraph>(_StrucDocTdParagraph_QNAME, StrucDocParagraph.class, StrucDocFootnote.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "br", scope = StrucDocFootnote.class)
-    public JAXBElement<String> createStrucDocFootnoteBr(String value) {
-        return new JAXBElement<String>(_StrucDocTitleFootnoteBr_QNAME, String.class, StrucDocFootnote.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocSup }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "sup", scope = StrucDocItem.class)
-    public JAXBElement<StrucDocSup> createStrucDocItemSup(StrucDocSup value) {
-        return new JAXBElement<StrucDocSup>(_StrucDocTitleFootnoteSup_QNAME, StrucDocSup.class, StrucDocItem.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocContent }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "content", scope = StrucDocItem.class)
-    public JAXBElement<StrucDocContent> createStrucDocItemContent(StrucDocContent value) {
-        return new JAXBElement<StrucDocContent>(_StrucDocTitleFootnoteContent_QNAME, StrucDocContent.class, StrucDocItem.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocTable }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "table", scope = StrucDocItem.class)
-    public JAXBElement<StrucDocTable> createStrucDocItemTable(StrucDocTable value) {
-        return new JAXBElement<StrucDocTable>(_StrucDocTextTable_QNAME, StrucDocTable.class, StrucDocItem.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocLinkHtml }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "linkHtml", scope = StrucDocItem.class)
-    public JAXBElement<StrucDocLinkHtml> createStrucDocItemLinkHtml(StrucDocLinkHtml value) {
-        return new JAXBElement<StrucDocLinkHtml>(_StrucDocParagraphLinkHtml_QNAME, StrucDocLinkHtml.class, StrucDocItem.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocList }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "list", scope = StrucDocItem.class)
-    public JAXBElement<StrucDocList> createStrucDocItemList(StrucDocList value) {
-        return new JAXBElement<StrucDocList>(_StrucDocTdList_QNAME, StrucDocList.class, StrucDocItem.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocFootnote }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "footnote", scope = StrucDocItem.class)
-    public JAXBElement<StrucDocFootnote> createStrucDocItemFootnote(StrucDocFootnote value) {
-        return new JAXBElement<StrucDocFootnote>(_StrucDocLinkHtmlFootnote_QNAME, StrucDocFootnote.class, StrucDocItem.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocCaption }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "caption", scope = StrucDocItem.class)
-    public JAXBElement<StrucDocCaption> createStrucDocItemCaption(StrucDocCaption value) {
-        return new JAXBElement<StrucDocCaption>(_StrucDocParagraphCaption_QNAME, StrucDocCaption.class, StrucDocItem.class, value);
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "footnote", scope = StrucDocTitleContent.class)
+    public JAXBElement<StrucDocTitleFootnote> createStrucDocTitleContentFootnote(StrucDocTitleFootnote value) {
+        return new JAXBElement<StrucDocTitleFootnote>(_StrucDocLinkHtmlFootnote_QNAME, StrucDocTitleFootnote.class, StrucDocTitleContent.class, value);
     }
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocFootnoteRef }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "footnoteRef", scope = StrucDocItem.class)
-    public JAXBElement<StrucDocFootnoteRef> createStrucDocItemFootnoteRef(StrucDocFootnoteRef value) {
-        return new JAXBElement<StrucDocFootnoteRef>(_StrucDocLinkHtmlFootnoteRef_QNAME, StrucDocFootnoteRef.class, StrucDocItem.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocRenderMultiMedia }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "renderMultiMedia", scope = StrucDocItem.class)
-    public JAXBElement<StrucDocRenderMultiMedia> createStrucDocItemRenderMultiMedia(StrucDocRenderMultiMedia value) {
-        return new JAXBElement<StrucDocRenderMultiMedia>(_StrucDocParagraphRenderMultiMedia_QNAME, StrucDocRenderMultiMedia.class, StrucDocItem.class, value);
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "footnoteRef", scope = StrucDocTitleContent.class)
+    public JAXBElement<StrucDocFootnoteRef> createStrucDocTitleContentFootnoteRef(StrucDocFootnoteRef value) {
+        return new JAXBElement<StrucDocFootnoteRef>(_StrucDocLinkHtmlFootnoteRef_QNAME, StrucDocFootnoteRef.class, StrucDocTitleContent.class, value);
     }
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocSub }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "sub", scope = StrucDocItem.class)
-    public JAXBElement<StrucDocSub> createStrucDocItemSub(StrucDocSub value) {
-        return new JAXBElement<StrucDocSub>(_StrucDocTitleFootnoteSub_QNAME, StrucDocSub.class, StrucDocItem.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocParagraph }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "paragraph", scope = StrucDocItem.class)
-    public JAXBElement<StrucDocParagraph> createStrucDocItemParagraph(StrucDocParagraph value) {
-        return new JAXBElement<StrucDocParagraph>(_StrucDocTdParagraph_QNAME, StrucDocParagraph.class, StrucDocItem.class, value);
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "sub", scope = StrucDocTitleContent.class)
+    public JAXBElement<StrucDocSub> createStrucDocTitleContentSub(StrucDocSub value) {
+        return new JAXBElement<StrucDocSub>(_StrucDocTitleFootnoteSub_QNAME, StrucDocSub.class, StrucDocTitleContent.class, value);
     }
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "br", scope = StrucDocItem.class)
-    public JAXBElement<String> createStrucDocItemBr(String value) {
-        return new JAXBElement<String>(_StrucDocTitleFootnoteBr_QNAME, String.class, StrucDocItem.class, value);
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "br", scope = StrucDocTitleContent.class)
+    public JAXBElement<String> createStrucDocTitleContentBr(String value) {
+        return new JAXBElement<String>(_StrucDocTitleFootnoteBr_QNAME, String.class, StrucDocTitleContent.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocSup }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "sup", scope = StrucDocText.class)
+    public JAXBElement<StrucDocSup> createStrucDocTextSup(StrucDocSup value) {
+        return new JAXBElement<StrucDocSup>(_StrucDocTitleFootnoteSup_QNAME, StrucDocSup.class, StrucDocText.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocContent }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "content", scope = StrucDocText.class)
+    public JAXBElement<StrucDocContent> createStrucDocTextContent(StrucDocContent value) {
+        return new JAXBElement<StrucDocContent>(_StrucDocTitleFootnoteContent_QNAME, StrucDocContent.class, StrucDocText.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocTable }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "table", scope = StrucDocText.class)
+    public JAXBElement<StrucDocTable> createStrucDocTextTable(StrucDocTable value) {
+        return new JAXBElement<StrucDocTable>(_StrucDocFootnoteTable_QNAME, StrucDocTable.class, StrucDocText.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocLinkHtml }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "linkHtml", scope = StrucDocText.class)
+    public JAXBElement<StrucDocLinkHtml> createStrucDocTextLinkHtml(StrucDocLinkHtml value) {
+        return new JAXBElement<StrucDocLinkHtml>(_StrucDocFootnoteLinkHtml_QNAME, StrucDocLinkHtml.class, StrucDocText.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocList }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "list", scope = StrucDocText.class)
+    public JAXBElement<StrucDocList> createStrucDocTextList(StrucDocList value) {
+        return new JAXBElement<StrucDocList>(_StrucDocFootnoteList_QNAME, StrucDocList.class, StrucDocText.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocFootnote }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "footnote", scope = StrucDocText.class)
+    public JAXBElement<StrucDocFootnote> createStrucDocTextFootnote(StrucDocFootnote value) {
+        return new JAXBElement<StrucDocFootnote>(_StrucDocLinkHtmlFootnote_QNAME, StrucDocFootnote.class, StrucDocText.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocFootnoteRef }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "footnoteRef", scope = StrucDocText.class)
+    public JAXBElement<StrucDocFootnoteRef> createStrucDocTextFootnoteRef(StrucDocFootnoteRef value) {
+        return new JAXBElement<StrucDocFootnoteRef>(_StrucDocLinkHtmlFootnoteRef_QNAME, StrucDocFootnoteRef.class, StrucDocText.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocRenderMultiMedia }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "renderMultiMedia", scope = StrucDocText.class)
+    public JAXBElement<StrucDocRenderMultiMedia> createStrucDocTextRenderMultiMedia(StrucDocRenderMultiMedia value) {
+        return new JAXBElement<StrucDocRenderMultiMedia>(_StrucDocFootnoteRenderMultiMedia_QNAME, StrucDocRenderMultiMedia.class, StrucDocText.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocSub }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "sub", scope = StrucDocText.class)
+    public JAXBElement<StrucDocSub> createStrucDocTextSub(StrucDocSub value) {
+        return new JAXBElement<StrucDocSub>(_StrucDocTitleFootnoteSub_QNAME, StrucDocSub.class, StrucDocText.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link StrucDocParagraph }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "paragraph", scope = StrucDocText.class)
+    public JAXBElement<StrucDocParagraph> createStrucDocTextParagraph(StrucDocParagraph value) {
+        return new JAXBElement<StrucDocParagraph>(_StrucDocFootnoteParagraph_QNAME, StrucDocParagraph.class, StrucDocText.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "br", scope = StrucDocText.class)
+    public JAXBElement<String> createStrucDocTextBr(String value) {
+        return new JAXBElement<String>(_StrucDocTitleFootnoteBr_QNAME, String.class, StrucDocText.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link PQ }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "width", scope = IVLTS.class)
+    public JAXBElement<PQ> createIVLTSWidth(PQ value) {
+        return new JAXBElement<PQ>(_IVLINTWidth_QNAME, PQ.class, IVLTS.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link TS }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "center", scope = IVLTS.class)
+    public JAXBElement<TS> createIVLTSCenter(TS value) {
+        return new JAXBElement<TS>(_IVLINTCenter_QNAME, TS.class, IVLTS.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link IVXBTS }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "low", scope = IVLTS.class)
+    public JAXBElement<IVXBTS> createIVLTSLow(IVXBTS value) {
+        return new JAXBElement<IVXBTS>(_IVLINTLow_QNAME, IVXBTS.class, IVLTS.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link IVXBTS }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "high", scope = IVLTS.class)
+    public JAXBElement<IVXBTS> createIVLTSHigh(IVXBTS value) {
+        return new JAXBElement<IVXBTS>(_IVLINTHigh_QNAME, IVXBTS.class, IVLTS.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link REAL }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "width", scope = IVLREAL.class)
+    public JAXBElement<REAL> createIVLREALWidth(REAL value) {
+        return new JAXBElement<REAL>(_IVLINTWidth_QNAME, REAL.class, IVLREAL.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link REAL }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "center", scope = IVLREAL.class)
+    public JAXBElement<REAL> createIVLREALCenter(REAL value) {
+        return new JAXBElement<REAL>(_IVLINTCenter_QNAME, REAL.class, IVLREAL.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link IVXBREAL }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "low", scope = IVLREAL.class)
+    public JAXBElement<IVXBREAL> createIVLREALLow(IVXBREAL value) {
+        return new JAXBElement<IVXBREAL>(_IVLINTLow_QNAME, IVXBREAL.class, IVLREAL.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link IVXBREAL }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "urn:hl7-org:v3", name = "high", scope = IVLREAL.class)
+    public JAXBElement<IVXBREAL> createIVLREALHigh(IVXBREAL value) {
+        return new JAXBElement<IVXBREAL>(_IVLINTHigh_QNAME, IVXBREAL.class, IVLREAL.class, value);
     }
 
     /**

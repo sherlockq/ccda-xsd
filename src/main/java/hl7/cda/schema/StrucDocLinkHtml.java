@@ -99,8 +99,8 @@ public class StrucDocLinkHtml {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link String }
      * {@link JAXBElement }{@code <}{@link StrucDocFootnote }{@code >}
+     * {@link String }
      * {@link JAXBElement }{@code <}{@link StrucDocFootnoteRef }{@code >}
      * 
      * 

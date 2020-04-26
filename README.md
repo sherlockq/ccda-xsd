@@ -22,5 +22,6 @@ Due to conflict of element and attribute with same name could not be handled by 
 
 ### Generate
 ``` shell script
-xjc [path-to-xsd]/infrastructure/cda/CDA_SDTC.xsd -d ./java -p [packagename] -verbose
+# this will fix mixed content issue with custom binding file
+xjc src/main/resources/hl7/cda/xsd/infrastructure/cda/CDA_SDTC.xsd -d src/main/java -p hl7.cda.schema -b src/main/resources/jaxb-bindings.xml -no-header -verbose
 ```

@@ -1,15 +1,20 @@
 
 package hl7.cda.schema;
 
+import java.util.List;
+import javax.xml.bind.JAXBElement;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAnyElement;
 import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlElementRef;
+import javax.xml.bind.annotation.XmlElementRefs;
+import javax.xml.bind.annotation.XmlMixed;
 import javax.xml.bind.annotation.XmlSeeAlso;
 import javax.xml.bind.annotation.XmlType;
 import javax.xml.bind.annotation.adapters.CollapsedStringAdapter;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
-import org.w3c.dom.Element;
+import com.sun.xml.internal.bind.annotation.OverrideAnnotationOf;
 
 
 /**
@@ -52,11 +57,7 @@ import org.w3c.dom.Element;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "ED", propOrder = {
-    "reference",
-    "thumbnail",
-    "any"
-})
+@XmlType(name = "ED")
 @XmlSeeAlso({
     Thumbnail.class,
     ST.class
@@ -65,10 +66,14 @@ public class ED
     extends BIN
 {
 
-    protected TEL reference;
-    protected Thumbnail thumbnail;
+    @XmlElementRefs({
+        @XmlElementRef(name = "reference", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false),
+        @XmlElementRef(name = "thumbnail", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false)
+    })
+    @XmlMixed
     @XmlAnyElement
-    protected Element any;
+    @OverrideAnnotationOf
+    protected List<Object> contentOverrideForED;
     @XmlAttribute(name = "mediaType")
     @XmlJavaTypeAdapter(CollapsedStringAdapter.class)
     protected String mediaType;
@@ -81,78 +86,6 @@ public class ED
     protected byte[] integrityCheck;
     @XmlAttribute(name = "integrityCheckAlgorithm")
     protected IntegrityCheckAlgorithm integrityCheckAlgorithm;
-
-    /**
-     * Gets the value of the reference property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link TEL }
-     *     
-     */
-    public TEL getReference() {
-        return reference;
-    }
-
-    /**
-     * Sets the value of the reference property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link TEL }
-     *     
-     */
-    public void setReference(TEL value) {
-        this.reference = value;
-    }
-
-    /**
-     * Gets the value of the thumbnail property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Thumbnail }
-     *     
-     */
-    public Thumbnail getThumbnail() {
-        return thumbnail;
-    }
-
-    /**
-     * Sets the value of the thumbnail property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Thumbnail }
-     *     
-     */
-    public void setThumbnail(Thumbnail value) {
-        this.thumbnail = value;
-    }
-
-    /**
-     * Gets the value of the any property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Element }
-     *     
-     */
-    public Element getAny() {
-        return any;
-    }
-
-    /**
-     * Sets the value of the any property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Element }
-     *     
-     */
-    public void setAny(Element value) {
-        this.any = value;
-    }
 
     /**
      * Gets the value of the mediaType property.

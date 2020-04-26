@@ -62,15 +62,17 @@ import javax.xml.bind.annotation.XmlType;
     PN.class,
     TN.class
 })
-public class EN {
+public class EN
+    extends ANY
+{
 
     @XmlElementRefs({
+        @XmlElementRef(name = "family", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false),
+        @XmlElementRef(name = "given", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false),
         @XmlElementRef(name = "validTime", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false),
         @XmlElementRef(name = "prefix", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "delimiter", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "given", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "family", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "suffix", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false)
+        @XmlElementRef(name = "suffix", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false),
+        @XmlElementRef(name = "delimiter", namespace = "urn:hl7-org:v3", type = JAXBElement.class, required = false)
     })
     @XmlMixed
     protected List<Serializable> content;
@@ -104,13 +106,13 @@ public class EN {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
+     * {@link String }
+     * {@link JAXBElement }{@code <}{@link EnFamily }{@code >}
+     * {@link JAXBElement }{@code <}{@link EnGiven }{@code >}
      * {@link JAXBElement }{@code <}{@link IVLTS }{@code >}
      * {@link JAXBElement }{@code <}{@link EnPrefix }{@code >}
-     * {@link JAXBElement }{@code <}{@link EnDelimiter }{@code >}
-     * {@link String }
-     * {@link JAXBElement }{@code <}{@link EnGiven }{@code >}
-     * {@link JAXBElement }{@code <}{@link EnFamily }{@code >}
      * {@link JAXBElement }{@code <}{@link EnSuffix }{@code >}
+     * {@link JAXBElement }{@code <}{@link EnDelimiter }{@code >}
      * 
      * 
      */
