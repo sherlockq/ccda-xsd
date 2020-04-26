@@ -14,7 +14,7 @@ import javax.xml.bind.annotation.XmlSeeAlso;
 import javax.xml.bind.annotation.XmlType;
 import javax.xml.bind.annotation.adapters.CollapsedStringAdapter;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
-import com.sun.xml.internal.bind.annotation.OverrideAnnotationOf;
+import com.sun.xml.bind.annotation.OverrideAnnotationOf;
 
 
 /**

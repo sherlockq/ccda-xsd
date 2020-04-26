@@ -25,3 +25,8 @@ Due to conflict of element and attribute with same name could not be handled by 
 # this will fix mixed content issue with custom binding file
 xjc src/main/resources/hl7/cda/xsd/infrastructure/cda/CDA_SDTC.xsd -d src/main/java -p hl7.cda.schema -b src/main/resources/jaxb-bindings.xml -no-header -verbose
 ```
+
+After code generated, manually change import `import com.sun.xml.bind.internal.annotation.OverrideAnnotationOf;` to
+`import com.sun.xml.bind.annotation.OverrideAnnotationOf;`. Otherwise, the build will fail.
+
+See <https://stackoverflow.com/questions/14592637/xjc-generated-code-references-overrideannotationof-annotation-from-sun-internal> for reference. 
